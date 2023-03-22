@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listview_item_project"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+        <TextView
+            android:id="@+id/project_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/project_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/project_name"
+            android:paddingLeft="10dp"
+            />
+
+    <ProgressBar
+        android:id="@+id/project_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:indeterminateOnly="false"
+        android:padding="3dp"
+        android:progressDrawable="@drawable/percent_progress"
+        android:layout_alignParentRight="true"
+        android:rotation="-90"
+        />
+
+</RelativeLayout>

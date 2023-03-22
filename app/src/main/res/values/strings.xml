@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">KuaiChuan</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_nfc">NfcActivity</string>
+    <string name="title_activity_camera_kit_view">CameraKitView</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_camera2">CameraActivity2</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string-array name="array_test">
+        <item>金嘉创意谷</item>
+        <item>招商花园城</item>
+        <item>左右创意园</item>
+    </string-array>
+    <string name="title_activity_take_photo">TakePhotoActivity</string>
+</resources>
