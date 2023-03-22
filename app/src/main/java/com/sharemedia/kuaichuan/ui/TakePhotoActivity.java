@@ -33,7 +33,7 @@ public class TakePhotoActivity extends AppCompatActivity {
         Log.d(TAG, data.getStringExtra("cardno"));
     }
 
-    //在onResume中开启前台调度
+    //在onResume中开启前台调度001
     @Override
     protected void onResume() {
         super.onResume();
